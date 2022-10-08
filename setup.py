@@ -6,7 +6,7 @@ README_MD = open(join(dirname(abspath(__file__)), "README.md")).read()
 
 setup(
     name="btcpay-python-sdk",
-    version="0.0.2",
+    version="0.1.0",
     packages=find_packages(exclude=["tests", "tests.*"]),
     description="BTCPay Python SDK using the Greenfield API",
     long_description=README_MD,
